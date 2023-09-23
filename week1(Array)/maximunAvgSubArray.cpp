@@ -11,8 +11,8 @@ public:
                 sum = sum +nums[i];
             }
             maxSum = max(sum,maxSum); 
-            start++;
-            j++;
+            start++;//bhul gaya tha 
+            j++;//bhul gaya tha
         }
         double maxAvg = maxSum /(double)k;
         return maxAvg;
